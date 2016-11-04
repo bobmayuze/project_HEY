@@ -6,9 +6,37 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+	background: #e8f5e9;
+}
+nav {
+	position: fixed;
+	z-index: 99;
+}
+.main {
+	height: 100vh;
+}
+/*.section .no-pad-bot{
+	height: 100vh;
+}*/
+/*.header, .center, .orange-text{
+	height: 100vh;	
+}*/
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+#start-button {
+	margin-top: 25%
+}
+#description_intro {
+	margin-top: 20%
+}
+#bread-button {
+	margin-top: 12%
+}
+#sauce-button {
+	margin-top: 12%
 }

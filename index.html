@@ -4,95 +4,136 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Starter Template - Materialize</title>
+  <!-- JS -->
+<!--   <script type="text/javascript" src=js/jquery-3.0.min.js></script>
+  <script type="text/javascript" src=js/materialize.js></script>
+  <script type="text/javascript" src=js/main.js></script>
+  <script type="text/javascript" src=js/init.js></script> -->
+
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
+  <nav class="light-green lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">HEY</a>
+      <ul class="right hide-on-med-and-down page-scoll">
+        <li><a href="#index-banner">Top</a></li>
+        <li><a href="#bread">Bread</a></li>
         <li><a href="#">Navbar Link</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
+      <ul id="nav-mobile" class="side-nav page-scoll">
+        <li><a href="#index-banner">Top</a></li>
+        <li><a href="#bread">Bread</a></li>
         <li><a href="#">Navbar Link</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
+
+  <!-- WELCOME part -->
+  <div class="section no-pad-bot main" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
+      <h1 class="header center green-text text-lighten-2">Project HEY</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <h5 id="description_intro" class="header col s12 light">Help you choose the best sandwich/wrap for you!</h5>
       </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      <div class="row center page-scoll">
+        <a href="#bread" id="start-button" class="btn-large waves-effect waves-light orange">Get Started</a>
       </div>
       <br><br>
 
     </div>
   </div>
 
+  
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
+  <!-- Choose Bread  -->
+  <div class="main bread container" id="bread">
+    
     <br><br>
+    <h3 class="header center green-text text-lighten-2">Please choose the kind of bread you want</h3>
+  
+    <div class="collection">
+      <a href="#!" class="collection-item waves-effect waves-teal" id="Jamie"><span class="badge"><i class="tiny material-icons">thumb_up</i></span>Jamie LAKS!</a>
+      <a href="#!" class="collection-item waves-effect waves-teal" id="Casey">Casey</a>
+      <a href="#!" class="collection-item waves-effect waves-teal" id="James">James</a>
+      <a href="#!" class="collection-item waves-effect waves-teal" id="Jordan">Jordan</a>
+      <a href="#!" class="collection-item waves-effect waves-teal " id="YUZEBOBMA">YUZEBOBMA</a>
+    </div>
 
-    <div class="section">
+    <div class="row center page-scoll">
+      <a href="#sauce" id="bread-button" class="btn-large waves-effect waves-light orange">Next</a>
+    </div>
 
+  </div>
+
+  <!-- Choose sauce -->
+  <div class="main sauce container" id="sauce">    
+    <br><br>
+    <h3 class="header center green-text text-lighten-2">Please choose the kind of sauce you want</h3>
+  
+    <div class="collection">
+      <a href="#!" class="collection-item " id="sauce_A"><span class="badge"><i class="small material-icons">thumb_up</i></span>Laks Special!</a>
+      <a href="#!" class="collection-item " id="sauce_B">Casey</a>
+      <a href="#!" class="collection-item " id="sauce_C">James</a>
+      <a href="#!" class="collection-item " id="sauce_D">Jordan</a>
+      <a href="#!" class="collection-item " id="sauce_E">YUZEBOBMA</a>    
+    </div>
+
+    <div class="row center page-scoll">
+      <a href="#veges" id="sauce-button" class="btn-large waves-effect waves-light orange">Next</a>
     </div>
   </div>
+
+  <!-- Choose veges -->
+  <div class="main veges container" id="veges">    
+    <br><br>
+    <h3 class="header center green-text text-lighten-2">Please choose the kind of veges you want</h3>
+  
+    <div class="collection">
+      <a href="#!" class="collection-item " id="veges_A"><span class="badge"><i class="small material-icons">thumb_up</i></span>Laks Special!</a>
+      <a href="#!" class="collection-item " id="veges_B">Casey</a>
+      <a href="#!" class="collection-item " id="veges_C">James</a>
+      <a href="#!" class="collection-item " id="veges_D">Jordan</a>
+      <a href="#!" class="collection-item " id="veges_E">YUZEBOBMA</a>    
+    </div>
+
+    <div class="row center page-scoll">
+      <a href="#ending" id="veges-button" class="btn-large waves-effect waves-light orange">Get My Blaster</a>
+    </div>
+  </div>
+
+  <!-- Result -->
+  <div class="main ending container" id="ending">    
+    <br><br>
+    <h3 class="header center green-text text-lighten-2">Here is your sandwich!</h3>
+    
+    <div class="center" id="result"></div>
+
+    <div class="row center page-scoll">
+      <a href="#index-banner" id="ending-button" class="btn-large waves-effect waves-light orange">I want another one!</a>
+    </div>
+  </div>  
+
+  
 
   <footer class="page-footer orange">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <div class="col l12 s12">
+          <h5 class="white-text center">ABOUT</h5>
+          <p class="grey-text text-lighten-4 center">I'm just having fun with all kinds of modules.</p>
 
 
         </div>
-        <div class="col l3 s12">
+<!--         <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
@@ -109,12 +150,12 @@
             <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright center">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Yuze Bob Ma</a>
       </div>
     </div>
   </footer>
@@ -124,6 +165,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript" src=js/main.js></script>
 
   </body>
 </html>
