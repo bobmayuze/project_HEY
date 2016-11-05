@@ -1,0 +1,45 @@
+Bread
+  White
+  Wheat
+  Potato
+  Rye bread
+  Gluten free bread
+
+  Wrap white
+  Wheat
+  Spinach
+  Tomato
+  Gluten free
+Sauce
+  Ranch
+  Caesar
+  Blue cheese
+  Honey muster
+  Thousand island 
+  Italian
+  Buffalo and BBQ sauce
+  Mayo
+  Dijon muster
+Cheese
+  American
+  Provolone
+  Swiss
+Veges
+  Onion
+  Lettuce
+  Tomato
+  Cucumber
+  Bick
+  Black olive
+  Banana papers
+  Spinach
+Meat
+  Turkey
+  Ham
+  Chicken
+  Pepperoni
+  Chicken salad
+  Tuna salad
+  Capricola
+  Salami
+  
