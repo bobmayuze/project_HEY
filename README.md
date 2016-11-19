@@ -1,13 +1,15 @@
 # Borilliant Sandwich Maker
 The Best Sandwich maker you could ever have!
 
+[Live Demo](borilliant.top)
+
 ```
 Borilliant
 │   README.md
 │   index.html
 |	LICENCE
 │
-└───folder1
+└───css
 │   │   file011.txt
 │   │   file012.txt
 │   │
@@ -16,7 +18,11 @@ Borilliant
 │       │   file112.txt
 │       │   ...
 │   
-└───folder2
+└───fonts
+|   │	file021.txt
+|   |	file022.txt
+│   
+|---js
     │	file021.txt
     |	file022.txt
 ```
