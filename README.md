@@ -2,9 +2,10 @@
 The Best Sandwich maker you could ever have!
 
 ```
-project
+Borilliant
 │   README.md
-│   file001.txt    
+│   index.html
+|	LICENCE
 │
 └───folder1
 │   │   file011.txt
@@ -16,6 +17,6 @@ project
 │       │   ...
 │   
 └───folder2
-    │   file021.txt
-    │   file022.txt
+    │	file021.txt
+    |	file022.txt
 ```
