@@ -1,7 +1,7 @@
 # Borilliant Sandwich Maker
 The Best Sandwich maker you could ever have!
 
-[Live Demo](http//:www.borilliant.top)
+[Live Demo](https://www.borilliant.top)
 
 ```
 Borilliant
