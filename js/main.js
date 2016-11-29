@@ -40,7 +40,7 @@ $(document).ready(function() {
       cheese.splice(index, 1);      
     } else {
       $(this).addClass("green");
-      $(this).addClass("accent-1");
+      $(this).addClass("lighten-5");
       cheese.push($(this).attr("value"))
     }
     // alert(cheese)  
@@ -53,7 +53,7 @@ $(document).ready(function() {
       meat.splice(index, 1);      
     } else {
       $(this).addClass("green");
-      $(this).addClass("accent-1");
+      $(this).addClass("lighten-5");
       meat.push($(this).attr("value"))
     }
     // alert(meat)  
@@ -66,7 +66,7 @@ $(document).ready(function() {
       vages.splice(index, 1);      
     } else {
       $(this).addClass("green");
-      $(this).addClass("accent-1");
+      $(this).addClass("lighten-5");
       vages.push($(this).attr("value"))
     }
     // alert(sauce)  
@@ -79,7 +79,7 @@ $(document).ready(function() {
       sauce.splice(index, 1);      
     } else {
       $(this).addClass("green");
-      $(this).addClass("accent-1");
+      $(this).addClass("lighten-5");
       sauce.push($(this).attr("value"))
     }
     // alert(sauce)  
