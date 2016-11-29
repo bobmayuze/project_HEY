@@ -29,6 +29,9 @@ nav {
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.container {
+	height: 100vh;
+}
 #start-button {
 	margin-top: 18%
 }

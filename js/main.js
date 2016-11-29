@@ -25,34 +25,23 @@ $(document).ready(function() {
       bread.splice(index, 1);      
     } else {
       $(this).addClass("green");
-      $(this).addClass("accent-1");
+      $(this).addClass("lighten-5");
       bread.push($(this).attr("value"))
     }
     // alert(bread)  
   });
 
-  $(".sauce .collection a").click(function () {
-    if ($(this).hasClass("green")) {
-      $(this).removeClass("green");
-      var index = sauce.indexOf($(this).attr("id"));
-      sauce.splice(index, 1);      
-    } else {
-      $(this).addClass("green");
-      $(this).addClass("accent-1");
-      sauce.push($(this).attr("id"))
-    }
-    // alert(sauce)  
-  });
+
 
   $(".cheese .collection a").click(function () {
     if ($(this).hasClass("green")) {
       $(this).removeClass("green");
-      var index = cheese.indexOf($(this).attr("id"));
+      var index = cheese.indexOf($(this).attr("value"));
       cheese.splice(index, 1);      
     } else {
       $(this).addClass("green");
       $(this).addClass("accent-1");
-      cheese.push($(this).attr("id"))
+      cheese.push($(this).attr("value"))
     }
     // alert(cheese)  
   });
@@ -60,12 +49,12 @@ $(document).ready(function() {
   $(".meat .collection a").click(function () {
     if ($(this).hasClass("green")) {
       $(this).removeClass("green");
-      var index = meat.indexOf($(this).attr("id"));
+      var index = meat.indexOf($(this).attr("value"));
       meat.splice(index, 1);      
     } else {
       $(this).addClass("green");
       $(this).addClass("accent-1");
-      meat.push($(this).attr("id"))
+      meat.push($(this).attr("value"))
     }
     // alert(meat)  
   });
@@ -73,15 +62,28 @@ $(document).ready(function() {
   $(".vages .collection a").click(function () {
     if ($(this).hasClass("green")) {
       $(this).removeClass("green");
-      var index = vages.indexOf($(this).attr("id"));
+      var index = vages.indexOf($(this).attr("value"));
       vages.splice(index, 1);      
     } else {
       $(this).addClass("green");
       $(this).addClass("accent-1");
-      vages.push($(this).attr("id"))
+      vages.push($(this).attr("value"))
     }
     // alert(sauce)  
   });
+
+  $(".sauce .collection a").click(function () {
+    if ($(this).hasClass("green")) {
+      $(this).removeClass("green");
+      var index = sauce.indexOf($(this).attr("value"));
+      sauce.splice(index, 1);      
+    } else {
+      $(this).addClass("green");
+      $(this).addClass("accent-1");
+      sauce.push($(this).attr("value"))
+    }
+    // alert(sauce)  
+  });  
 
   // page scroll animation
   $('.page-scoll a').bind('click', function(event) {
@@ -94,7 +96,7 @@ $(document).ready(function() {
   });
 
   // page scroll animation
-  $("#veges-button").click(function () {
+  $("#sauce-button").click(function () {
     // alert("Blaster!")
     // alert(bread.length)
     // Choose Bread
