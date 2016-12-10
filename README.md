@@ -49,3 +49,13 @@ Borilliant
 |	|	materialize.js
 |	|	materialize.min.js
 ```
+
+
+Code Review 
+- Materialize Design
+- JS
+	-Page scroll
+	-Change color of box
+	-Generating random components
+		- Add
+		- Remove

@@ -1,4 +1,3 @@
-// test js so far
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -15,8 +14,6 @@ var cheese = []
 var meat = []
 var vages = []
 $(document).ready(function() {
-  // alert('ready')
-  // yo() 
 
   $(".bread .collection a").click(function () {
     if ($(this).hasClass("green")) {
@@ -28,7 +25,6 @@ $(document).ready(function() {
       $(this).addClass("lighten-5");
       bread.push($(this).attr("value"))
     }
-    // alert(bread)  
   });
 
 
@@ -43,7 +39,6 @@ $(document).ready(function() {
       $(this).addClass("lighten-5");
       cheese.push($(this).attr("value"))
     }
-    // alert(cheese)  
   });
 
   $(".meat .collection a").click(function () {
@@ -56,7 +51,6 @@ $(document).ready(function() {
       $(this).addClass("lighten-5");
       meat.push($(this).attr("value"))
     }
-    // alert(meat)  
   });
 
   $(".vages .collection a").click(function () {
@@ -69,7 +63,6 @@ $(document).ready(function() {
       $(this).addClass("lighten-5");
       vages.push($(this).attr("value"))
     }
-    // alert(sauce)  
   });
 
   $(".sauce .collection a").click(function () {
@@ -82,12 +75,10 @@ $(document).ready(function() {
       $(this).addClass("lighten-5");
       sauce.push($(this).attr("value"))
     }
-    // alert(sauce)  
   });  
 
   // page scroll animation
   $('.page-scoll a').bind('click', function(event) {
-        // alert('AAAAAA')
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
@@ -95,14 +86,11 @@ $(document).ready(function() {
         event.preventDefault();
   });
 
-  // page scroll animation
+  // Getting result
   $("#sauce-button").click(function () {
-    // alert("Blaster!")
-    // alert(bread.length)
-    // Choose Bread
     var luck = getRandomInt(0, bread.length)
     bread_choose = bread[luck]
-    $('#result_bread').html(bread_choose); 
+    $('#result_bread').text(bread_choose); 
 
     var luck = getRandomInt(0, sauce.length)
     sauce_choose = sauce[luck]
